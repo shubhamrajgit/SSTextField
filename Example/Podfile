@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSTextField_Example' do
+  pod 'SSTextField', :path => '../'
+
+  target 'SSTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
