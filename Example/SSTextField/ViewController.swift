@@ -1,15 +1,16 @@
 //
 //  ViewController.swift
-//  SSTextField
+//  UnderlineTextField
 //
-//  Created by shubham on 04/26/2018.
-//  Copyright (c) 2018 shubham. All rights reserved.
+//  Created by Shubham Raj on 4/26/18.
+//  Copyright © 2018 Shubham Raj. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var txtName: PAH_TextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,5 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnSubmitClicked(_ sender: Any) {
+        txtName.validateName(withLimit: 100)
+    }
+    
 }
 
