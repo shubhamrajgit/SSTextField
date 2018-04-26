@@ -22,7 +22,7 @@ pod 'SSTextField'
 
 ## Author
 
-shubham, shubham.raj@finoit.co.in
+shubham, shubham.16raj@gmail.com
 
 ## License
 
